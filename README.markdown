@@ -10,7 +10,7 @@
   $ pandoc website.markdown --to html --standalone --table-of-contents | xmllint --format --html --xpath '//html/body/node()' - | pbcopy
   ```
 
-*  Grab the contents of the `body` section and put it into a Wordpress HTML block
+*  Grab the contents of the `body` section and paste it into a Wordpress HTML block
 
 ## Mail
 
@@ -21,4 +21,4 @@
   $ cd 2019-03
   $ pandoc email.markdown --to plain --wrap=none | pbcopy
   ```
-* Copy it into an eMail.
+* Paste it into an eMail.
